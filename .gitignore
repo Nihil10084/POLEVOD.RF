@@ -1,1 +1,23 @@
+# Временные файлы Microsoft Word
+~$*.docx
 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE и локальные настройки
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Локальные секреты и конфигурации
+.env
+.env.*
+!.env.example
+
+# Временные результаты экспорта
+*.tmp
+*.bak
